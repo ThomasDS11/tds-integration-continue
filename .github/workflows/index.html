@@ -1,18 +1,1 @@
-on: push
-name: Deploy website on push 2
-jobs:
-  web-deploy:
-    name: Deploy2
-    runs-on: ubuntu-latest
-    steps:
-    - name: Get latest code2
-      uses: actions/checkout@v3
-
-    - name: Sync files2
-      uses: SamKirkland/FTP-Deploy-Action@4.3.3
-      with:
-        server: files.000webhost.com
-        username: onlineshoptds10
-        password: ByC^UJOXB3pGWXL123Ac
-        server-dir : public_html/
-
+<h1>Site de Thomas Dos Santos</h1>
